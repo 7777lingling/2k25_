@@ -45,17 +45,17 @@ class GameLoop:
             # 遊戲主要流程圖片
             "mycareer": os.path.join(folder1, "MyCAREER.png"),
             "myteam": os.path.join(folder1, "MyTEAM.png"),
-            "new_content": os.path.join(folder1, "全新內容.png"),
-            "daily_reward": os.path.join(folder1, "每日獎勵.png"),
-            "domination": os.path.join(folder1, "稱霸賽主頁.png"),
-            "domination_btn": os.path.join(folder1, "稱霸賽按鈕.png"),
-            "select": os.path.join(folder1, "選擇.png"),
-            "stars": os.path.join(folder1, "三星.png"),
-            "match": os.path.join(folder1, "比賽.png"),  # 新增比賽圖片
+            "new_content": os.path.join(folder1, "new_content.png"),
+            "daily_reward": os.path.join(folder1, "daily_reward.png"),
+            "domination": os.path.join(folder1, "domination_home.png"),
+            "domination_btn": os.path.join(folder1, "domination_button.png"),
+            "select": os.path.join(folder1, "select.png"),
+            "stars": os.path.join(folder1, "three_stars.png"),
+            "match": os.path.join(folder1, "match.png"),  # 新增比賽圖片
             # 遊戲進行時的動作圖片
-            "forward": os.path.join(folder2, "前進.png"),
-            "pause": os.path.join(folder2, "暫停.png"),
-            "continue": os.path.join(folder2, "繼續.png"),
+            "forward": os.path.join(folder2, "forward.png"),
+            "pause": os.path.join(folder2, "pause.png"),
+            "continue": os.path.join(folder2, "continue.png"),
         }
         self.search_count = 0  # 添加搜尋次數計數器
 
